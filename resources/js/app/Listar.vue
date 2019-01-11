@@ -21,14 +21,13 @@
                   <table class="table table-striped table-bordered table-hover">
                     <thead >
                       <tr>
-                        <th>  CATEGORIA  </th>
+                        <th>  CATEGORÍA  </th>
                         <th>  COMENTARIO  </th>
                         <th>  PALABRAS CLAVE </th>
                         <th>  URL </th>
                       </tr>
                     </thead>
                     <tbody >
-
                       <tr v-for="link in links">
                         <td v-text="link.categoria"></td>
                         <td v-text="link.comentario"></td>
